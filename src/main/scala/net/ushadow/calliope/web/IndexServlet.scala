@@ -7,6 +7,6 @@ class IndexServlet extends HttpServlet {
   override def doGet(req: HttpServletRequest, resp: HttpServletResponse) =
     resp.getWriter().print("<HTML>" +
       "<HEAD><TITLE>Hello, Scala!</TITLE></HEAD>" +
-      "<BODY>LKJHHJLLHJ Hello, Scala! This is a servlet.</BODY>" +
+      "<BODY>LKJHHJLLHJ Hello, Scala! This is a servlet.  Hello Ademar/BODY>" +
       "</HTML>")
 }
